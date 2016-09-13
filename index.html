@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Load Google font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,700,400,500,300italic,400italic,500italic,700italic">
+    <!--if lt IE 9
+    script(src="https://html5shim.googlecode.com/svn/trunk/html5.js")
+    -->
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <title>Surety Bonds LMS</title>
+    <style>
+      [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+        display: none !important;
+      }
+    </style>
+    <link rel="stylesheet" href="theme.min.css">
+    <link rel="stylesheet" href="theme-edits.css">
+  </head>
+  <body>
+    <input id="layout-version" type="hidden" value="v2">
+    <div class="page-container page-header-fixed page-with-two-sidebar page-with-footer page-with-top-menu">
+      <!-- begin #header-->
+      <div id="header" class="header navbar navbar-default navbar-fixed-top navbar-primary">
+        <!-- begin container-fluid-->
+        <div class="container-fluid">
+          <!-- begin mobile sidebar expand / collapse button-->
+          <div class="navbar-header"><a href="/" class="navbar-brand"><img src="frank-logo-white.svg" alt="Frank Logo" class="logo"></a>
+            <button type="button" data-click="sidebar-toggled" class="navbar-toggle"><span class="fa fa-bar"></span><span class="fa fa-bar"></span><span class="fa fa-bar"></span></button>
+          </div>
+          <!-- end mobile sidebar expand / collapse button-->
+          <!-- begin navbar-right-->
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown missing-payment-container hide"><a href="javascript:;" data-toggle="dropdown" class="dropdown-toggle missing-payment-dropdown"><i class="fa fa-money text-warning-light"></i></a>
+              <ul class="dropdown-menu pull-right">
+                <li><a href="/missing-payments" class="missing-payment-count">No Missing Payments</a></li>
+              </ul>
+              <li><a href="/stats"><i class="fa fa-bar-chart"></i></a></li>
+            </li>
+            <li><a id="new-lead-header-btn" href="javascript:;" data-modal=".get-lead-modal" data-url="/leads/get-counts" class="open-modal"><i class="fa fa-user-plus"></i></a></li>
+            <li><a id="search-toggle" href="javascript:;"><i class="fa fa-search"></i></a></li>
+            <li class="dropdown navbar-user"><a href="javascript:;" data-toggle="dropdown" class="dropdown-toggle"><span class="image"><img src="al.png" alt=""></span><b class="caret"></b></a>
+              <ul class="dropdown-menu pull-right">
+                <li><a href="/purchases/">Purchase Lookup</a></li>
+                <li><a href="/leads/">View All Leads</a></li>
+                <li><a href="/account/alerts">Alerts</a></li>
+                <li><a href="/account/all-licenses">Licenses</a></li>
+                <li><a href="/admin">Configuration</a></li>
+                <li><a href="/users">View Users</a></li>
+                <li><a href="/account/edit">Edit Profile</a></li>
+                <li class="divider"></li>
+                <li><a href="/logout">Log Out</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- end navbar-right-->
+        </div>
+        <!-- end container-fluid-->
+      </div>
+      <!-- end #header-->
+      <!-- begin #top-menu-->
+      <div id="top-menu" class="top-menu">
+        <div class="container-fluid">
+          <!-- begin top-menu nav-->
+          <ul class="nav">
+            <li id="claimed">
+              <div class="holder"></div><a href="/leads/claimed">Claimed Leads</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
